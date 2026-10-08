@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --color-brand-50: #fff7ed;
+  --color-brand-100: #ffedd5;
+  --color-brand-200: #fed7aa;
+  --color-brand-300: #fdba74;
+  --color-brand-400: #fb923c;
+  --color-brand-500: #f97316;
+  --color-brand-600: #ea580c;
+  --color-brand-700: #c2410c;
+  --color-brand-800: #9a3412;
+  --color-brand-900: #7c2d12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #ea580c;
+  color: #fff;
+}
+
+/* WhatsApp chat pattern (pure CSS) */
+.wa-bg {
+  background-color: #e5ddd5;
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.045) 1.5px, transparent 1.6px),
+    radial-gradient(rgba(0, 0, 0, 0.03) 1.5px, transparent 1.6px);
+  background-size: 22px 22px, 26px 26px;
+  background-position: 0 0, 11px 13px;
+}
+
+/* subtle card lift */
+.card-lift {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.card-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -12px rgba(28, 25, 23, 0.35);
+}
+
+/* chat typing dots */
+.typing-dot {
+  animation: typing 1.1s infinite ease-in-out;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+@keyframes typing {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+
+/* pulsing availability dot */
+.pulse-dot {
+  animation: pulseDot 2s infinite;
+}
+@keyframes pulseDot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.55); }
+  50% { box-shadow: 0 0 0 6px rgba(22, 163, 74, 0); }
+}
+
+/* shimmer for gallery placeholders */
+.shimmer {
+  background: linear-gradient(110deg, #e7e5e4 8%, #f5f5f4 18%, #e7e5e4 33%);
+  background-size: 200% 100%;
+  animation: shimmer 2.6s linear infinite;
+}
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
+
+/* thin scrollbars for chat panes */
+.chat-scroll::-webkit-scrollbar { width: 6px; }
+.chat-scroll::-webkit-scrollbar-thumb { background: #d6d3d1; border-radius: 3px; }

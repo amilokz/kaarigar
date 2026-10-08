@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "w01",
+    "name": "Malik Adnan",
+    "category": "electrician",
+    "area": "Saddar",
+    "rate": 2800,
+    "rating": 4.8,
+    "jobs": 260,
+    "availableToday": false,
+    "verified": true,
+    "experience": 15,
+    "phone": "0322-5049061",
+    "cnic": "35202-1336953-1",
+    "skills": [
+      "Switch board",
+      "Fan fitting",
+      "UPS fitting"
+    ],
+    "reviews": [
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "electrician ka 11 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w02",
+    "name": "Malik Arif",
+    "category": "electrician",
+    "area": "Wapda Town",
+    "rate": 3900,
+    "rating": 4.6,
+    "jobs": 94,
+    "availableToday": true,
+    "verified": false,
+    "experience": 6,
+    "phone": "0330-8397025",
+    "cnic": "35202-2085333-9",
+    "skills": [
+      "UPS fitting",
+      "Switch board",
+      "Wiring"
+    ],
+    "reviews": [
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Bilal S.",
+        "t": "Bohat mehnati banda hai. Kaam ki guarantee di.",
+        "r": 5
+      }
+    ],
+    "about": "electrician ka 11 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w03",
+    "name": "Mian Adnan",
+    "category": "electrician",
+    "area": "Wapda Town",
+    "rate": 3600,
+    "rating": 4.5,
+    "jobs": 140,
+    "availableToday": true,
+    "verified": true,
+    "experience": 5,
+    "phone": "0336-4023380",
+    "cnic": "35202-2862587-6",
+    "skills": [
+      "DB box",
+      "Wiring",
+      "Switch board"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Nadeem P.",
+        "t": "Theek kaam kiya, waqt par pohncha.",
+        "r": 4
+      }
+    ],
+    "about": "electrician ka 16 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w04",
+    "name": "Ghulam Hafeez",
+    "category": "electrician",
+    "area": "Township",
+    "rate": 2900,
+    "rating": 4.3,
+    "jobs": 66,
+    "availableToday": true,
+    "verified": true,
+    "experience": 9,
+    "phone": "0337-4586622",
+    "cnic": "35202-4025087-8",
+    "skills": [
+      "Wiring",
+      "Fan fitting",
+      "Switch board"
+    ],
+    "reviews": [
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      }
+    ],
+    "about": "electrician ka 8 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w05",
+    "name": "Chaudhry Akram",
+    "category": "electrician",
+    "area": "Iqbal Town",
+    "rate": 3300,
+    "rating": 4.5,
+    "jobs": 231,
+    "availableToday": false,
+    "verified": false,
+    "experience": 10,
+    "phone": "0316-6568697",
+    "cnic": "35202-8268332-3",
+    "skills": [
+      "UPS fitting",
+      "DB box",
+      "Fan fitting"
+    ],
+    "reviews": [
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "electrician ka 9 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w06",
+    "name": "Malik Imtiaz",
+    "category": "plumber",
+    "area": "Model Town",
+    "rate": 3400,
+    "rating": 4.4,
+    "jobs": 329,
+    "availableToday": false,
+    "verified": true,
+    "experience": 14,
+    "phone": "0316-4291750",
+    "cnic": "35202-1179731-2",
+    "skills": [
+      "Leakage repair",
+      "Pipe fitting",
+      "Sanitary"
+    ],
+    "reviews": [
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Bilal S.",
+        "t": "Bohat mehnati banda hai. Kaam ki guarantee di.",
+        "r": 5
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      }
+    ],
+    "about": "plumber ka 11 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w07",
+    "name": "Rana Rehman",
+    "category": "plumber",
+    "area": "Cantt",
+    "rate": 2400,
+    "rating": 4.9,
+    "jobs": 187,
+    "availableToday": true,
+    "verified": true,
+    "experience": 15,
+    "phone": "0313-8835897",
+    "cnic": "35202-4873588-5",
+    "skills": [
+      "Leakage repair",
+      "Tank cleaning",
+      "Motor fitting"
+    ],
+    "reviews": [
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      },
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      }
+    ],
+    "about": "plumber ka 3 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w08",
+    "name": "Sheikh Rashid",
+    "category": "plumber",
+    "area": "Township",
+    "rate": 2500,
+    "rating": 4.2,
+    "jobs": 101,
+    "availableToday": false,
+    "verified": false,
+    "experience": 6,
+    "phone": "0330-8740141",
+    "cnic": "35202-9418119-6",
+    "skills": [
+      "Pipe fitting",
+      "Sanitary",
+      "Tank cleaning"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Nadeem P.",
+        "t": "Theek kaam kiya, waqt par pohncha.",
+        "r": 4
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "plumber ka 10 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w09",
+    "name": "Sheikh Khalid",
+    "category": "plumber",
+    "area": "Johar Town",
+    "rate": 2400,
+    "rating": 4.4,
+    "jobs": 290,
+    "availableToday": true,
+    "verified": false,
+    "experience": 9,
+    "phone": "0321-6676890",
+    "cnic": "35202-7940890-7",
+    "skills": [
+      "Pipe fitting",
+      "Sanitary",
+      "Tank cleaning"
+    ],
+    "reviews": [
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Bilal S.",
+        "t": "Bohat mehnati banda hai. Kaam ki guarantee di.",
+        "r": 5
+      }
+    ],
+    "about": "plumber ka 12 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w10",
+    "name": "Abdul Tanveer",
+    "category": "plumber",
+    "area": "Wapda Town",
+    "rate": 2600,
+    "rating": 4.9,
+    "jobs": 215,
+    "availableToday": false,
+    "verified": true,
+    "experience": 15,
+    "phone": "0345-4105715",
+    "cnic": "35202-1898054-6",
+    "skills": [
+      "Leakage repair",
+      "Tank cleaning",
+      "Sanitary"
+    ],
+    "reviews": [
+      {
+        "n": "Nadeem P.",
+        "t": "Theek kaam kiya, waqt par pohncha.",
+        "r": 4
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "plumber ka 5 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w11",
+    "name": "Chaudhry Javed",
+    "category": "painter",
+    "area": "Wapda Town",
+    "rate": 3000,
+    "rating": 4.1,
+    "jobs": 279,
+    "availableToday": true,
+    "verified": true,
+    "experience": 12,
+    "phone": "0330-2242974",
+    "cnic": "35202-1742425-7",
+    "skills": [
+      "Wall paint",
+      "Putty work",
+      "Texture"
+    ],
+    "reviews": [
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "painter ka 8 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w12",
+    "name": "Sheikh Hafeez",
+    "category": "painter",
+    "area": "DHA Phase 2",
+    "rate": 3000,
+    "rating": 4.4,
+    "jobs": 362,
+    "availableToday": true,
+    "verified": true,
+    "experience": 10,
+    "phone": "0330-2695439",
+    "cnic": "35202-8672493-2",
+    "skills": [
+      "Polish",
+      "Texture",
+      "Putty work"
+    ],
+    "reviews": [
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Bilal S.",
+        "t": "Bohat mehnati banda hai. Kaam ki guarantee di.",
+        "r": 5
+      }
+    ],
+    "about": "painter ka 4 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w13",
+    "name": "Mian Shahid",
+    "category": "painter",
+    "area": "Johar Town",
+    "rate": 3000,
+    "rating": 4.4,
+    "jobs": 202,
+    "availableToday": true,
+    "verified": true,
+    "experience": 9,
+    "phone": "0329-5612027",
+    "cnic": "35202-5278475-5",
+    "skills": [
+      "Wall paint",
+      "Putty work",
+      "Texture"
+    ],
+    "reviews": [
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      }
+    ],
+    "about": "painter ka 10 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w14",
+    "name": "Muhammad Munir",
+    "category": "painter",
+    "area": "Cantt",
+    "rate": 2800,
+    "rating": 3.8,
+    "jobs": 268,
+    "availableToday": true,
+    "verified": true,
+    "experience": 13,
+    "phone": "0336-9857966",
+    "cnic": "35202-9815224-9",
+    "skills": [
+      "Polish",
+      "Texture",
+      "Putty work"
+    ],
+    "reviews": [
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      }
+    ],
+    "about": "painter ka 13 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w15",
+    "name": "Mian Yousuf",
+    "category": "painter",
+    "area": "Saddar",
+    "rate": 2800,
+    "rating": 4,
+    "jobs": 50,
+    "availableToday": false,
+    "verified": true,
+    "experience": 10,
+    "phone": "0345-5202177",
+    "cnic": "35202-4432023-8",
+    "skills": [
+      "Wall paint",
+      "Polish",
+      "Exterior"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      }
+    ],
+    "about": "painter ka 10 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w16",
+    "name": "Ghulam Adnan",
+    "category": "mason",
+    "area": "Shadman",
+    "rate": 2500,
+    "rating": 4.4,
+    "jobs": 378,
+    "availableToday": true,
+    "verified": true,
+    "experience": 5,
+    "phone": "0339-6706292",
+    "cnic": "35202-1014811-4",
+    "skills": [
+      "Plaster",
+      "Tile fixing",
+      "Marble"
+    ],
+    "reviews": [
+      {
+        "n": "Nadeem P.",
+        "t": "Theek kaam kiya, waqt par pohncha.",
+        "r": 4
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      }
+    ],
+    "about": "mason ka 17 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w17",
+    "name": "Ghulam Naveed",
+    "category": "mason",
+    "area": "Shadman",
+    "rate": 3300,
+    "rating": 4.7,
+    "jobs": 254,
+    "availableToday": false,
+    "verified": true,
+    "experience": 6,
+    "phone": "0322-9843956",
+    "cnic": "35202-5551884-9",
+    "skills": [
+      "Plaster",
+      "Brick work",
+      "Concrete"
+    ],
+    "reviews": [
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      }
+    ],
+    "about": "mason ka 4 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w18",
+    "name": "Rana Akram",
+    "category": "mason",
+    "area": "Johar Town",
+    "rate": 3200,
+    "rating": 5,
+    "jobs": 109,
+    "availableToday": true,
+    "verified": true,
+    "experience": 14,
+    "phone": "0326-2557650",
+    "cnic": "35202-1048716-7",
+    "skills": [
+      "Concrete",
+      "Brick work",
+      "Marble"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "mason ka 10 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w19",
+    "name": "Ghulam Aslam",
+    "category": "mason",
+    "area": "Johar Town",
+    "rate": 3600,
+    "rating": 4,
+    "jobs": 253,
+    "availableToday": false,
+    "verified": true,
+    "experience": 10,
+    "phone": "0316-9116011",
+    "cnic": "35202-6159890-2",
+    "skills": [
+      "Marble",
+      "Tile fixing",
+      "Concrete"
+    ],
+    "reviews": [
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Nadeem P.",
+        "t": "Theek kaam kiya, waqt par pohncha.",
+        "r": 4
+      }
+    ],
+    "about": "mason ka 5 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w20",
+    "name": "Sheikh Bilal",
+    "category": "mason",
+    "area": "Township",
+    "rate": 3200,
+    "rating": 4.4,
+    "jobs": 207,
+    "availableToday": true,
+    "verified": false,
+    "experience": 13,
+    "phone": "0326-9973801",
+    "cnic": "35202-2995201-4",
+    "skills": [
+      "Brick work",
+      "Plaster",
+      "Tile fixing"
+    ],
+    "reviews": [
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      }
+    ],
+    "about": "mason ka 5 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w21",
+    "name": "Abdul Rashid",
+    "category": "carpenter",
+    "area": "Gulberg",
+    "rate": 4200,
+    "rating": 3.9,
+    "jobs": 141,
+    "availableToday": true,
+    "verified": false,
+    "experience": 10,
+    "phone": "0326-1188488",
+    "cnic": "35202-4553484-1",
+    "skills": [
+      "Door fitting",
+      "Furniture repair",
+      "Kitchen"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      }
+    ],
+    "about": "carpenter ka 9 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w22",
+    "name": "Chaudhry Sajid",
+    "category": "carpenter",
+    "area": "Saddar",
+    "rate": 3900,
+    "rating": 3.8,
+    "jobs": 366,
+    "availableToday": false,
+    "verified": false,
+    "experience": 3,
+    "phone": "0343-3037113",
+    "cnic": "35202-5730006-4",
+    "skills": [
+      "Wardrobe",
+      "Door fitting",
+      "Kitchen"
+    ],
+    "reviews": [
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Bilal S.",
+        "t": "Bohat mehnati banda hai. Kaam ki guarantee di.",
+        "r": 5
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      }
+    ],
+    "about": "carpenter ka 4 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w23",
+    "name": "Ghulam Abbas",
+    "category": "carpenter",
+    "area": "DHA Phase 2",
+    "rate": 3500,
+    "rating": 5,
+    "jobs": 220,
+    "availableToday": true,
+    "verified": false,
+    "experience": 6,
+    "phone": "0319-6458546",
+    "cnic": "35202-6479561-5",
+    "skills": [
+      "Wardrobe",
+      "Furniture repair",
+      "False ceiling"
+    ],
+    "reviews": [
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      }
+    ],
+    "about": "carpenter ka 9 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w24",
+    "name": "Chaudhry Farooq",
+    "category": "carpenter",
+    "area": "Wapda Town",
+    "rate": 3400,
+    "rating": 4.3,
+    "jobs": 280,
+    "availableToday": false,
+    "verified": true,
+    "experience": 17,
+    "phone": "0312-9538890",
+    "cnic": "35202-7667362-5",
+    "skills": [
+      "Kitchen",
+      "Door fitting",
+      "Wardrobe"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      }
+    ],
+    "about": "carpenter ka 7 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w25",
+    "name": "Ghulam Nasir",
+    "category": "carpenter",
+    "area": "Cantt",
+    "rate": 3300,
+    "rating": 4.1,
+    "jobs": 93,
+    "availableToday": false,
+    "verified": true,
+    "experience": 6,
+    "phone": "0335-8116944",
+    "cnic": "35202-6044619-9",
+    "skills": [
+      "Wardrobe",
+      "Furniture repair",
+      "False ceiling"
+    ],
+    "reviews": [
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Bilal S.",
+        "t": "Bohat mehnati banda hai. Kaam ki guarantee di.",
+        "r": 5
+      }
+    ],
+    "about": "carpenter ka 16 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w26",
+    "name": "Mian Zahid",
+    "category": "ac-tech",
+    "area": "Cantt",
+    "rate": 3500,
+    "rating": 4.4,
+    "jobs": 159,
+    "availableToday": false,
+    "verified": true,
+    "experience": 5,
+    "phone": "0345-8169007",
+    "cnic": "35202-6645467-6",
+    "skills": [
+      "Repair",
+      "AC install",
+      "Service"
+    ],
+    "reviews": [
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      }
+    ],
+    "about": "AC ka 7 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w27",
+    "name": "Mian Sajid",
+    "category": "ac-tech",
+    "area": "Shadman",
+    "rate": 4300,
+    "rating": 4.9,
+    "jobs": 315,
+    "availableToday": true,
+    "verified": true,
+    "experience": 4,
+    "phone": "0319-9059131",
+    "cnic": "35202-9894312-6",
+    "skills": [
+      "Gas refill",
+      "AC install",
+      "Split unit"
+    ],
+    "reviews": [
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      }
+    ],
+    "about": "AC ka 6 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w28",
+    "name": "Sheikh Naveed",
+    "category": "ac-tech",
+    "area": "Township",
+    "rate": 4700,
+    "rating": 4.5,
+    "jobs": 185,
+    "availableToday": false,
+    "verified": true,
+    "experience": 2,
+    "phone": "0342-8092802",
+    "cnic": "35202-5710365-2",
+    "skills": [
+      "Service",
+      "Repair",
+      "Split unit"
+    ],
+    "reviews": [
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      },
+      {
+        "n": "Usman T.",
+        "t": "Kaam theek hua, thora late aya tha lekin inform kar diya tha.",
+        "r": 4
+      },
+      {
+        "n": "Hassan D.",
+        "t": "Kaam mukammal kar ke gaya, choti moti cheezein bhi theek kar di.",
+        "r": 5
+      }
+    ],
+    "about": "AC ka 5 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w29",
+    "name": "Abdul Yousuf",
+    "category": "ac-tech",
+    "area": "Saddar",
+    "rate": 3600,
+    "rating": 4.4,
+    "jobs": 65,
+    "availableToday": true,
+    "verified": true,
+    "experience": 12,
+    "phone": "0340-7734695",
+    "cnic": "35202-8307564-9",
+    "skills": [
+      "Gas refill",
+      "AC install",
+      "Split unit"
+    ],
+    "reviews": [
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      },
+      {
+        "n": "Ahmed R.",
+        "t": "Waqt par aya, kaam saaf suthra kiya. Rate bhi munasib tha.",
+        "r": 5
+      },
+      {
+        "n": "Sana K.",
+        "t": "Ghar ka kaam tha, tameez se baat ki aur kaam acha kiya.",
+        "r": 4
+      }
+    ],
+    "about": "AC ka 10 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  },
+  {
+    "id": "w30",
+    "name": "Sheikh Akram",
+    "category": "ac-tech",
+    "area": "Township",
+    "rate": 4800,
+    "rating": 4.9,
+    "jobs": 154,
+    "availableToday": false,
+    "verified": false,
+    "experience": 10,
+    "phone": "0337-7472304",
+    "cnic": "35202-3206591-3",
+    "skills": [
+      "Service",
+      "AC install",
+      "Repair"
+    ],
+    "reviews": [
+      {
+        "n": "Nadeem P.",
+        "t": "Theek kaam kiya, waqt par pohncha.",
+        "r": 4
+      },
+      {
+        "n": "Faisal J.",
+        "t": "Rate pehle se clear tha, koi extra charge nahi. Khush hoon.",
+        "r": 5
+      },
+      {
+        "n": "Kamran M.",
+        "t": "Professional kaam, safai ka khayal rakha. Dobara bulayenge.",
+        "r": 5
+      }
+    ],
+    "about": "AC ka 6 saal ka tajurba. Ghar aur office dono ka kaam karta hoon.",
+    "source": "seed"
+  }
+]
