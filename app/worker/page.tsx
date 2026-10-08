@@ -16,7 +16,7 @@ function ProfileInner() {
 
   if (!worker) {
     return (
-      <div className="rounded-3xl bg-white p-10 text-center shadow-sm">
+      <div className="card p-10 text-center">
         <p className="text-lg font-bold text-stone-600">{t('noResults')}</p>
         <Link href="/workers" className="mt-4 inline-block font-bold text-orange-700 underline">
           ← {t('back')}
@@ -38,7 +38,7 @@ function ProfileInner() {
       </Link>
 
       {/* header card */}
-      <section className="rounded-3xl bg-stone-900 p-6 text-white shadow-xl sm:p-8">
+      <section className="hero-mesh overflow-hidden rounded-[2rem] p-6 text-white shadow-[0_24px_50px_-20px_rgba(154,52,18,0.55)] ring-1 ring-orange-500/20 sm:p-8">
         <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
           <div className="relative self-start">
             <Avatar name={worker.name} size="h-24 w-24 text-3xl" />
@@ -69,11 +69,11 @@ function ProfileInner() {
             </p>
           </div>
           <div className="text-left sm:text-right">
-            <p className="text-3xl font-black text-orange-400">PKR {worker.rate.toLocaleString()}</p>
+            <p className="bg-gradient-to-br from-amber-300 to-orange-500 bg-clip-text text-3xl font-black text-transparent">PKR {worker.rate.toLocaleString()}</p>
             <p className="text-xs text-stone-400">PKR{t('perDay')}</p>
             <Link
               href={`/book?worker=${worker.id}`}
-              className="mt-3 inline-block rounded-full bg-orange-600 px-8 py-3 text-sm font-extrabold text-white shadow-lg transition hover:bg-orange-500"
+              className="btn-brand mt-3 px-8 py-3 text-sm"
             >
               {t('bookNow')}
             </Link>
@@ -83,7 +83,7 @@ function ProfileInner() {
 
       <div className="grid gap-6 lg:grid-cols-2">
         {/* skills + about */}
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6">
           <h2 className="text-lg font-extrabold text-stone-900">{t('skills')}</h2>
           <div className="mt-3 flex flex-wrap gap-2">
             {worker.skills.map((s) => (
@@ -101,7 +101,7 @@ function ProfileInner() {
         </section>
 
         {/* gallery placeholders (CSS only) */}
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-extrabold text-stone-900">{t('workPhotos')}</h2>
             <SimBadge />
@@ -122,7 +122,7 @@ function ProfileInner() {
       </div>
 
       {/* reviews */}
-      <section className="rounded-3xl bg-white p-6 shadow-sm">
+      <section className="card p-6">
         <h2 className="text-lg font-extrabold text-stone-900">{t('reviews')}</h2>
         <div className="mt-3 space-y-3">
           {worker.reviews.map((r, i) => (

@@ -40,18 +40,17 @@ function ListingInner() {
     setMinRating(0); setVerifiedOnly(false);
   };
 
-  const selectCls =
-    'w-full rounded-xl border-2 border-stone-200 bg-white px-3 py-2.5 text-sm font-semibold text-stone-800 outline-none focus:border-orange-500';
+  const selectCls = 'field';
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-black text-stone-900">{t('findWorkers')}</h1>
+      <h1 className="text-3xl font-black tracking-tight text-stone-900">{t('findWorkers')}</h1>
 
       {/* FILTERS */}
-      <section className="rounded-3xl bg-white p-5 shadow-sm" aria-label="filters">
+      <section className="card p-5 sm:p-6" aria-label="filters">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <label className="block">
-            <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">
+            <span className="field-label">
               {t('filterCategory')}
             </span>
             <select value={cat} onChange={(e) => setCat(e.target.value)} className={selectCls}>
@@ -62,7 +61,7 @@ function ListingInner() {
             </select>
           </label>
           <label className="block">
-            <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">
+            <span className="field-label">
               {t('filterArea')}
             </span>
             <select value={area} onChange={(e) => setArea(e.target.value)} className={selectCls}>
@@ -73,7 +72,7 @@ function ListingInner() {
             </select>
           </label>
           <div>
-            <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">
+            <span className="field-label">
               {t('filterRate')}: {maxRate === RATE_STEPS.length - 1 ? '—' : `≤ PKR ${RATE_STEPS[maxRate].toLocaleString()}`}
             </span>
             <input
@@ -87,7 +86,7 @@ function ListingInner() {
             />
           </div>
           <div>
-            <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">
+            <span className="field-label">
               {t('filterRating')}: {minRating === 0 ? t('anyRating') : `${minRating}+ ★`}
             </span>
             <div className="flex gap-1.5">
@@ -96,7 +95,7 @@ function ListingInner() {
                   key={r}
                   onClick={() => setMinRating(r)}
                   className={`rounded-full px-3 py-1.5 text-sm font-bold transition ${
-                    minRating === r ? 'bg-orange-600 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
+                    minRating === r ? 'bg-gradient-to-b from-orange-500 to-orange-700 text-white shadow-[0_6px_14px_-6px_rgba(234,88,12,0.7)]' : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
                   }`}
                 >
                   {r === 0 ? t('anyRating') : `${r}+ ★`}
@@ -126,7 +125,7 @@ function ListingInner() {
       </p>
 
       {filtered.length === 0 ? (
-        <div className="rounded-3xl bg-white p-10 text-center text-stone-500 shadow-sm">
+        <div className="card p-10 text-center text-stone-500">
           <p className="text-lg font-bold">{t('noResults')}</p>
         </div>
       ) : (

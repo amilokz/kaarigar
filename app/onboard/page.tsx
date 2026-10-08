@@ -219,14 +219,14 @@ export default function OnboardPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-black text-stone-900">{t('onboardTitle')}</h1>
+        <h1 className="text-3xl font-black tracking-tight text-stone-900">{t('onboardTitle')}</h1>
         <p className="mt-1 text-sm text-stone-600">{t('onboardSub')}</p>
         <div className="mt-2"><SimBadge /></div>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
         {/* LEFT — WhatsApp-style chat */}
-        <section className="overflow-hidden rounded-3xl shadow-xl ring-1 ring-stone-200" aria-label="WhatsApp simulation">
+        <section className="overflow-hidden rounded-[1.75rem] shadow-[0_24px_50px_-20px_rgba(28,25,23,0.35)] ring-1 ring-stone-200" aria-label="WhatsApp simulation">
           <div className="flex items-center gap-3 bg-[#075e54] px-4 py-3 text-white">
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20">
               <WhatsAppGlyph className="h-6 w-6" />
@@ -327,7 +327,7 @@ export default function OnboardPage() {
         </section>
 
         {/* RIGHT — live profile */}
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-extrabold text-stone-900">{t('liveProfile')}</h2>
             <span className="text-xs font-bold text-stone-500">{filled}/5</span>

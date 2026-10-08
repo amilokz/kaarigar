@@ -34,8 +34,8 @@ type StrVal = string | ((n: string) => string);
 const STR: Record<Lang, Record<string, StrVal>> = {
   ur: {
     // chrome
-    moreDemos: '← More demos by AKCLNT',
     footerNote: 'Demo — sample data. Built by AKCLNT.',
+    footerCtaTitle: 'Apke karobar ke liye aisi hi booking app?',
     buildForBusiness: 'Build this for your business',
     aiSimulated: 'AI simulated for demo',
     resetDemo: 'Reset demo data',
@@ -43,6 +43,7 @@ const STR: Record<Lang, Record<string, StrVal>> = {
     langLabel: 'EN',
     back: 'Wapas',
     // home
+    heroEyebrow: 'Kaarigar · Online Usthad Bazaar',
     heroProblem: 'Roz ki mazdoori ke liye ab chowk par intezaar nahi — bharosemand kaarigar ab aik click par.',
     heroCta: 'Aaj kisi ki zaroorat hai?',
     heroSub: 'Apna ilaqa likhein, kaam chunein — verified kaarigar foran milein ge.',
@@ -149,14 +150,15 @@ const STR: Record<Lang, Record<string, StrVal>> = {
     sampleDataNote: 'Tamam naam aur data farzi hain — sirf demo ke liye.',
   },
   en: {
-    moreDemos: '← More demos by AKCLNT',
     footerNote: 'Demo — sample data. Built by AKCLNT.',
+    footerCtaTitle: 'Want a booking app like this for your business?',
     buildForBusiness: 'Build this for your business',
     aiSimulated: 'AI simulated for demo',
     resetDemo: 'Reset demo data',
     resetConfirm: 'Demo data has been reset. Reloading…',
     langLabel: 'اردو',
     back: 'Back',
+    heroEyebrow: 'Kaarigar · Skilled Workers On Demand',
     heroProblem: 'No more roadside waiting for daily-wage work — trusted skilled workers, one click away.',
     heroCta: 'Need someone today?',
     heroSub: 'Type your area, pick a trade — verified workers right away.',

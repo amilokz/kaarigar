@@ -102,7 +102,7 @@ function BookInner() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
-      <div className="flex items-center gap-4 rounded-3xl bg-white p-4 shadow-sm">
+      <div className="card flex items-center gap-4 p-4 sm:p-5">
         <Avatar name={worker.name} size="h-14 w-14 text-lg" />
         <div>
           <h1 className="text-xl font-black text-stone-900">{t('bookTitle')}</h1>
@@ -134,14 +134,14 @@ function BookInner() {
 
       {/* STEP 1 — describe */}
       {step === 0 && (
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6 sm:p-7">
           <label className="mb-2 block text-sm font-extrabold text-stone-900">{t('describeLabel')}</label>
           <textarea
             value={job}
             onChange={(e) => setJob(e.target.value)}
             placeholder={t('describePlaceholder')}
             rows={4}
-            className="w-full rounded-2xl border-2 border-stone-200 p-4 text-sm outline-none focus:border-orange-500"
+            className="field"
           />
           <p className="mb-2 mt-4 text-xs font-bold uppercase tracking-wide text-stone-500">{t('commonJobs')}</p>
           <div className="flex flex-wrap gap-2">
@@ -157,7 +157,7 @@ function BookInner() {
           </div>
           <button
             onClick={() => { if (!job.trim()) { setErr(t('needDescribe')); return; } setErr(''); setStep(1); }}
-            className="mt-6 w-full rounded-full bg-orange-600 py-3 text-sm font-extrabold text-white transition hover:bg-orange-500"
+            className="btn-brand mt-6 w-full py-3.5 text-sm"
           >
             {t('stepWhen')} →
           </button>
@@ -166,14 +166,14 @@ function BookInner() {
 
       {/* STEP 2 — date/time */}
       {step === 1 && (
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6 sm:p-7">
           <label className="mb-2 block text-sm font-extrabold text-stone-900">{t('dateLabel')}</label>
           <input
             type="date"
             min={today}
             value={date}
             onChange={(e) => setDate(e.target.value)}
-            className="w-full rounded-2xl border-2 border-stone-200 p-3 text-sm font-semibold outline-none focus:border-orange-500"
+            className="field"
           />
           <p className="mb-2 mt-5 text-sm font-extrabold text-stone-900">{t('timeLabel')}</p>
           <div className="flex flex-wrap gap-2">
@@ -190,12 +190,12 @@ function BookInner() {
             ))}
           </div>
           <div className="mt-6 flex gap-2">
-            <button onClick={() => setStep(0)} className="rounded-full bg-stone-200 px-6 py-3 text-sm font-bold text-stone-700">
+            <button onClick={() => setStep(0)} className="rounded-full bg-stone-200 px-6 py-3 text-sm font-bold text-stone-700 transition hover:bg-stone-300 active:scale-95">
               ← {t('back')}
             </button>
             <button
               onClick={() => { if (!date || !time) { setErr(t('needDateTime')); return; } setErr(''); setStep(2); }}
-              className="flex-1 rounded-full bg-orange-600 py-3 text-sm font-extrabold text-white transition hover:bg-orange-500"
+              className="btn-brand flex-1 py-3.5 text-sm"
             >
               {t('stepConfirm')} →
             </button>
@@ -205,7 +205,7 @@ function BookInner() {
 
       {/* STEP 3 — confirm */}
       {step === 2 && (
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6 sm:p-7">
           <h2 className="text-lg font-extrabold text-stone-900">{t('stepConfirm')}</h2>
           <dl className="mt-4 space-y-3 rounded-2xl bg-stone-100 p-4 text-sm">
             <div className="flex justify-between gap-4"><dt className="font-bold text-stone-500">{t('workerName')}</dt><dd className="font-extrabold text-stone-900">{worker.name}</dd></div>
@@ -215,10 +215,10 @@ function BookInner() {
           </dl>
           <p className="mt-3 rounded-xl bg-green-50 px-4 py-2 text-xs font-semibold text-green-800">{t('paymentNote')}</p>
           <div className="mt-6 flex gap-2">
-            <button onClick={() => setStep(1)} className="rounded-full bg-stone-200 px-6 py-3 text-sm font-bold text-stone-700">
+            <button onClick={() => setStep(1)} className="rounded-full bg-stone-200 px-6 py-3 text-sm font-bold text-stone-700 transition hover:bg-stone-300 active:scale-95">
               ← {t('back')}
             </button>
-            <button onClick={confirm} className="flex-1 rounded-full bg-green-600 py-3 text-sm font-extrabold text-white shadow-lg transition hover:bg-green-500">
+            <button onClick={confirm} className="btn-green flex-1 py-3.5 text-sm">
               ✓ {t('confirmBooking')}
             </button>
           </div>
@@ -228,14 +228,14 @@ function BookInner() {
       {/* STEP 4 — tracker */}
       {step === 3 && booking && (
         <section className="space-y-4">
-          <div className="rounded-3xl bg-green-600 p-6 text-center text-white shadow-xl">
+          <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-green-600 via-emerald-600 to-green-700 p-6 text-center text-white shadow-[0_20px_44px_-16px_rgba(22,163,74,0.6)] sm:p-8">
             <p className="text-2xl">✅</p>
             <h2 className="mt-1 text-xl font-black">{t('bookingConfirmed')}</h2>
             <p className="mt-1 text-sm font-semibold text-green-100">{t('bookingRef')}: <b>{booking.ref}</b></p>
             <div className="mt-2"><SimBadge /></div>
           </div>
 
-          <div className="rounded-3xl bg-white p-6 shadow-sm">
+          <div className="card p-6 sm:p-7">
             <ol className="space-y-0">
               {stages.map((s, i) => (
                 <li key={s} className="flex gap-4">
@@ -287,7 +287,7 @@ function BookInner() {
       {/* complaint modal */}
       {complaintOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" role="dialog" aria-modal="true">
-          <div className="w-full max-w-md rounded-3xl bg-white p-6 shadow-2xl">
+          <div className="card w-full max-w-md p-6 shadow-2xl">
             <h3 className="text-lg font-extrabold text-stone-900">{t('complaintTitle')}</h3>
             {!complaintDone ? (
               <>
@@ -296,7 +296,7 @@ function BookInner() {
                   onChange={(e) => setComplaintText(e.target.value)}
                   placeholder={t('complaintPlaceholder')}
                   rows={4}
-                  className="mt-3 w-full rounded-2xl border-2 border-stone-200 p-3 text-sm outline-none focus:border-orange-500"
+                  className="field mt-3"
                 />
                 <div className="mt-4 flex gap-2">
                   <button onClick={() => setComplaintOpen(false)} className="flex-1 rounded-full bg-stone-200 py-2.5 text-sm font-bold text-stone-700">{t('cancel')}</button>
@@ -315,7 +315,7 @@ function BookInner() {
                     <p className="mt-1 text-right text-[10px] text-stone-500">Message sent (simulated) ✓✓</p>
                   </div>
                 </div>
-                <button onClick={() => setComplaintOpen(false)} className="mt-4 w-full rounded-full bg-stone-900 py-2.5 text-sm font-bold text-white">OK</button>
+                <button onClick={() => setComplaintOpen(false)} className="btn-dark mt-4 w-full py-2.5 text-sm">OK</button>
               </>
             )}
           </div>

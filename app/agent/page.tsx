@@ -61,13 +61,12 @@ export default function AgentPage() {
     setName(''); setCnic(''); setPhone(''); setRate('2500'); setPhotoUrl(null);
   };
 
-  const inputCls =
-    'w-full rounded-2xl border-2 border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-800 outline-none focus:border-orange-500';
+  const inputCls = 'field';
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <div>
-        <h1 className="text-2xl font-black text-stone-900">🧑‍💼 {t('agentTitle')}</h1>
+        <h1 className="text-3xl font-black tracking-tight text-stone-900">🧑‍💼 {t('agentTitle')}</h1>
         <p className="mt-1 text-sm text-stone-600">{t('agentSub')}</p>
       </div>
 
@@ -77,7 +76,7 @@ export default function AgentPage() {
             key={k}
             onClick={() => setTab(k)}
             className={`rounded-full px-5 py-2.5 text-sm font-extrabold transition ${
-              tab === k ? 'bg-orange-600 text-white shadow' : 'bg-white text-stone-600 shadow-sm hover:bg-stone-100'
+              tab === k ? 'bg-gradient-to-b from-orange-500 to-orange-700 text-white shadow-[0_8px_18px_-6px_rgba(234,88,12,0.7)]' : 'bg-white text-stone-600 shadow-sm hover:bg-stone-100'
             }`}
           >
             {k === 'register' ? t('tabRegister') : t('tabDashboard')}
@@ -86,7 +85,7 @@ export default function AgentPage() {
       </div>
 
       {tab === 'register' && (
-        <section className="rounded-3xl bg-white p-6 shadow-sm">
+        <section className="card p-6 sm:p-7">
           <div className="mb-5 flex items-center gap-4">
             <span className={`flex h-16 w-16 items-center justify-center rounded-full text-xl font-black text-white ${avatarColor(name || '?')}`}>
               {name ? initials(name) : '?'}
@@ -109,23 +108,23 @@ export default function AgentPage() {
 
           <div className="grid gap-4 sm:grid-cols-2">
             <label className="block">
-              <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">{t('fName')} *</span>
+              <span className="field-label">{t('fName')} *</span>
               <input value={name} onChange={(e) => setName(e.target.value)} className={inputCls} placeholder="Muhammad Aslam" />
             </label>
             <label className="block">
-              <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">{t('fPhone')} *</span>
+              <span className="field-label">{t('fPhone')} *</span>
               <input value={phone} onChange={(e) => setPhone(e.target.value)} className={inputCls} placeholder="0300-1234567" />
             </label>
             <label className="block">
-              <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">{t('fCnic')}</span>
+              <span className="field-label">{t('fCnic')}</span>
               <input value={cnic} onChange={(e) => setCnic(e.target.value)} className={inputCls} placeholder="35202-1234567-1" />
             </label>
             <label className="block">
-              <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">{t('fRate')}</span>
+              <span className="field-label">{t('fRate')}</span>
               <input value={rate} onChange={(e) => setRate(e.target.value)} inputMode="numeric" className={inputCls} placeholder="2500" />
             </label>
             <label className="block">
-              <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">{t('fSkill')}</span>
+              <span className="field-label">{t('fSkill')}</span>
               <select value={skill} onChange={(e) => setSkill(e.target.value)} className={inputCls}>
                 {CATEGORIES.map((c) => (
                   <option key={c.id} value={c.id}>{catName(c.id)}</option>
@@ -133,7 +132,7 @@ export default function AgentPage() {
               </select>
             </label>
             <label className="block">
-              <span className="mb-1 block text-xs font-bold uppercase tracking-wide text-stone-500">{t('fArea')}</span>
+              <span className="field-label">{t('fArea')}</span>
               <select value={area} onChange={(e) => setArea(e.target.value)} className={inputCls}>
                 {AREAS.map((a) => (
                   <option key={a} value={a}>{a}</option>
@@ -148,7 +147,7 @@ export default function AgentPage() {
             </p>
           )}
 
-          <button onClick={submit} className="mt-5 w-full rounded-full bg-orange-600 py-3 text-sm font-extrabold text-white shadow-lg transition hover:bg-orange-500">
+          <button onClick={submit} className="btn-brand mt-5 w-full py-3.5 text-sm">
             {t('registerWorker')}
           </button>
         </section>
@@ -157,21 +156,21 @@ export default function AgentPage() {
       {tab === 'dashboard' && (
         <div className="space-y-4">
           <div className="grid gap-4 sm:grid-cols-3">
-            <div className="rounded-3xl bg-stone-900 p-5 text-white">
+            <div className="card-dark p-5 text-white">
               <p className="text-3xl font-black text-orange-400">{mine.length}</p>
               <p className="mt-1 text-xs font-bold text-stone-400">{t('dashWorkers')}</p>
             </div>
-            <div className="rounded-3xl bg-white p-5 shadow-sm">
+            <div className="card p-5">
               <p className="text-3xl font-black text-amber-600">{pending}</p>
               <p className="mt-1 text-xs font-bold text-stone-500">{t('dashPending')}</p>
             </div>
-            <div className="rounded-3xl bg-green-700 p-5 text-white">
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-green-600 to-emerald-700 p-5 text-white shadow-[0_16px_34px_-14px_rgba(22,163,74,0.6)]">
               <p className="text-3xl font-black">PKR {total.toLocaleString()}</p>
               <p className="mt-1 text-xs font-bold text-green-200">{t('dashCommission')}</p>
             </div>
           </div>
 
-          <div className="rounded-3xl bg-white p-5 shadow-sm">
+          <div className="card p-5">
             <h2 className="text-sm font-extrabold text-stone-900">Commission breakdown (demo)</h2>
             <div className="mt-3 space-y-2 text-sm">
               <div className="flex justify-between rounded-xl bg-stone-100 px-4 py-2.5">
